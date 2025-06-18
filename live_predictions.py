@@ -20,7 +20,7 @@ class LivePredictions:
         Init method is used to initialize the main parameters.
         """
         self.file = file
-        self.path = os.path.join(MODEL_DIR_PATH, 'best_model.h5')  # ✅ Fixed Path
+        self.path = os.path.join(MODEL_DIR_PATH, 'Emotion_Voice_Detection_Model1.h5')  # ✅ Fixed Path
         self.loaded_model = keras.models.load_model(self.path)
 
     def make_predictions(self):
@@ -60,5 +60,5 @@ if __name__ == '__main__':
     live_prediction.make_predictions()
 
 
-    live_prediction = LivePredictions(file=os.path.join(EXAMPLES_PATH, 'YAF_back_neutral.wav '))
+    live_prediction = LivePredictions(file=os.path.join(EXAMPLES_PATH, 'YAF_back_neutral.wav'))
     live_prediction.make_predictions()
