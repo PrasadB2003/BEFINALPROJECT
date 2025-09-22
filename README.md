@@ -9,3 +9,36 @@ The project also supports **real-time emotion prediction** from live audio input
 ---
 
 ## 🗂️ Repository Structure  
+
+BEFINALPROJECT/
+│── TESS_Toronto_emotional_speech_set_data/ # Dataset
+│── examples/ # Sample audio files
+│── features/ # Extracted feature files
+│── joblib_features/ # Serialized features for reuse
+│── legacy_code/ # Old versions of code (for reference)
+│── media/ # Supporting files
+│── model/ # Trained model files
+│
+├── config.py # Configuration settings
+├── create_features.py # Extract features from audio dataset
+├── live_predictions.py # Real-time emotion prediction script
+├── neural_network.py # Deep neural network model
+├── tess_pipeline.py # Complete training + testing pipeline
+├── plot_model.py # Model visualization
+├── requirements.txt # Dependencies
+├── training_metrics.png # Training performance visualization
+└── README.md # Project documentation
+
+
+
+This version is **professional, GitHub-ready, and tailored for recruiters**.  
+
+If you want, I can also **add a “Demo GIF / Live Audio Example” section** so your repo looks even more interactive and impressive for rtCamp. Do you want me to do that next?
+
+
+
+
+
+
+
+Ask ChatGPT
